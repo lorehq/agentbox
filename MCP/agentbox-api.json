@@ -1,0 +1,4 @@
+{
+  "command": "node",
+  "args": ["agentbox-api.js"]
+}

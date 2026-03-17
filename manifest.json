@@ -1,0 +1,8 @@
+{
+  "manifest_version": 1,
+  "slug": "agentbox",
+  "name": "AgentBox",
+  "version": "0.1.0",
+  "description": "Client-side orchestrator for dispatching tasks to cloud agent VMs",
+  "author": "lorehq"
+}
