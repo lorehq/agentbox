@@ -2,7 +2,12 @@
   "manifest_version": 1,
   "slug": "agentbox",
   "name": "AgentBox",
-  "version": "0.1.0",
-  "description": "Client-side orchestrator for dispatching tasks to cloud agent VMs",
-  "author": "lorehq"
+  "version": "0.2.0",
+  "description": "Client-side dispatcher for cloud agent VMs — spawn, monitor, answer questions, review PRs",
+  "author": "lorehq",
+  "hooks": {
+    "prompt-submit": [
+      { "name": "Delegation Nudge", "script": "HOOKS/prompt-submit/delegation-nudge.mjs" }
+    ]
+  }
 }
